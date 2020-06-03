@@ -1,0 +1,37 @@
+[
+  {
+    "first_name": "Angela",
+    "last_name": "Markel",
+    "time_zone": "Europe/Berlin",
+    "user_id": "U1234HJ",
+    "username": "U1234HJ"
+  },
+  {
+    "first_name": "Donald",
+    "last_name": "Trump",
+    "time_zone": "America/Antigua",
+    "user_id": "U7684ZX",
+    "username": "U7684ZX"
+  },
+  {
+    "first_name": "Narendra",
+    "last_name": "Modi",
+    "time_zone": "Asia/Kolkata",
+    "user_id": "U0976DF",
+    "username": "U0976DF"
+  },
+  {
+    "first_name": "Borris",
+    "last_name": "Johnson",
+    "time_zone": "Europe/London",
+    "user_id": "U4358BN",
+    "username": "U4358BN"
+  },
+  {
+    "first_name": "Vladimir",
+    "last_name": "Putin",
+    "time_zone": "Europe/Moscow",
+    "user_id": "U9846LK",
+    "username": "U9846LK"
+  }
+]
