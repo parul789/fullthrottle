@@ -23,4 +23,4 @@ This command will delete all the records from all the tables and repopulate data
 python manage.py populate_database
 ```
 ## Publicly hosted on this link given below
- [Here] (http://prlgupta789.pythonanywhere.com/api/users-activity)
+[HERE](http://prlgupta789.pythonanywhere.com/api/users-activity)
