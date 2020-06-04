@@ -7,11 +7,17 @@ from .serializers import UserSerializer
 
 class UserActivityView(APIView):
     def get(self, request):
+        """
+        GET API for users and user activities
+        :param request: request object
+        :return: json in the specied format
+        """
+
         result = {
-            "ok": True,
+            "ok": False,
             "members": []
         }
         qs = CustomUser.objects.all()
-        user_activity_qs = UserSerializer(qs, many=True).data
-        result["members"].extend(user_activity_qs)
+        user_data = UserSerializer(qs, many=True).data
+        result["members"].extend(user_data)
         return Response(result, status=200)
