@@ -4,8 +4,14 @@ UserActivity is a django web application that stores User and its activity relat
 
 * Models - 1. CustomUser (stores data about User) 2. UserActivity (stores information about activity start time and end time)
 table1 has one to many relation with table 2
-* Views - one API to provide user data in specified format
+* Views - one API to provide user data in specified format path to this is: 
+```python
+http://host:port/api/users-activity
+for example: http://127.0.0.1:8000/api/users-activity
+```
+
 * Custom management command
+
 # Language and framework used
 * python
 * Django
